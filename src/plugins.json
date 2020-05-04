@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Recommended",
+    "description": "Highly recommended for all servers",
+    "plugins": [
+      {
+        "name": "VPN Blocker",
+        "description": "A BZFlag plug-in used to query VPN detection services to auto-kick players on VPNs",
+        "author": "allejo",
+        "github": "VPNBlocker"
+      },
+      {
+        "name": "Score Restorer",
+        "description": "A BZFlag plug-in that restores a player's score whenever they rejoin within a set amount of time.",
+        "author": "allejo",
+        "github": "ScoreRestorer"
+      }
+    ]
+  },
+  {
+    "name": "Game Modes",
+    "description": "Custom game modes",
+    "plugins": [
+      {
+        "name": "Dodgeball",
+        "description": "A BZFlag plugin introducing the \"Dodgeball\" game mode",
+        "author": "allejo",
+        "github": "dodgeball"
+      }
+    ]
+  },
+  {
+    "name": "Flags",
+    "description": "More flags",
+    "plugins": [
+      {
+        "name": "Safe Genocide",
+        "description": "A BZFlag plug-in to create a Genocide-like flag without the mass killing",
+        "author": "allejo",
+        "github": "safeGenocide"
+      }
+    ]
+  },
+  {
+    "name": "Miscellaneous",
+    "description": "Plugins don't really fit into another category",
+    "plugins": [
+      {
+        "name": "Mapped Death Zones",
+        "description": "A BZFlag plug-in that introduces basic spawning logic based on where a player died",
+        "author": "allejo",
+        "github": "mappedDeathZones"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="List of plugins for BZFlag servers">
+  <meta name="author" content="The Noah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <title>BZFlag Server Plugins</title>
+  <style><%- css.style -%></style>
+</head>
+<body>
+  <div class="cover">
+    <h1>BZFlag Server Plugins</h1>
+  </div>
+  <div class="container">
+    <% plugins.forEach(function(pluginCategory){ %>
+      <div>
+        <h2><%= pluginCategory.name %></h2>
+        <p><%= pluginCategory.description %>.</p>
+        <div class="cards">
+          <% pluginCategory.plugins.forEach(function(plugin){ %>
+            <div>
+              <h3><%= plugin.name %></h3>
+              <p><%= plugin.description %>.</p>
+              <small>
+                By <a href="https://github.com/<%= plugin.author %>" target="_blank" rel="noopener noreferrer"><%= plugin.author %></a> •
+                <a href="https://github.com/<%= plugin.author %>/<%= plugin.github %>" target="_blank" rel="noopener noreferrer">GitHub</a></small>
+            </div>
+          <% }); %>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+  <footer>
+    <div>
+      <a href="https://www.bzflag.org" target="_blank" rel="noopener noreferrer">BZFlag</a> •
+      <a href="https://github.com/The-Noah/bzfs-plugins" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <div>
+      Copyright &copy; 2020 <a href="https://the-noah.github.io" target="_blank" rel="noopener noreferrer">The Noah</a>
+    </div>
+  </footer>
+</body>
+</html>

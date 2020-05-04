@@ -1,0 +1,24 @@
+{
+  "name": "bzfs-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "static-site-generator",
+    "watch": "static-site-generator watch",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Noah/bzfs-plugins.git"
+  },
+  "author": "The Noah (https://github.com/The-Noah)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Noah/bzfs-plugins/issues"
+  },
+  "homepage": "https://github.com/The-Noah/bzfs-plugins#readme",
+  "dependencies": {
+    "@the-noah/static-site-generator": "^1.0.1"
+  }
+}
