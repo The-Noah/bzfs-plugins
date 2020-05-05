@@ -14,15 +14,15 @@
     <h1>BZFlag Server Plugins</h1>
     <nav>
       <% plugins.forEach(function(pluginCategory, i){ %>
-        <a href="#<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></a>
-        <%= i !== plugins.length - 1 ? "•" : "" %>
+        <a href="#<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></a> •
       <% }); %>
+      <a href="#submit">Submit</a>
     </nav>
   </header>
   <div class="container">
     <% plugins.forEach(function(pluginCategory){ %>
-      <div>
-        <h2 id="<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></h2>
+      <div id="<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>">
+        <h2><%= pluginCategory.name %></h2>
         <p><%= pluginCategory.description %>.</p>
         <div class="cards">
           <% pluginCategory.plugins.forEach(function(plugin){ %>
@@ -37,6 +37,11 @@
         </div>
       </div>
     <% }); %>
+    <div id="submit">
+      <h2>Submit Plugin</h2>
+      <p>Want to submit a plugin to this list? Either create an <a href="https://github.com/The-Noah/bzfs-plugins/issues/new" target="_blank" rel="noopener noreferrer">issue</a> or <a href="https://github.com/The-Noah/bzfs-plugins/compare" target="_blank" rel="noopener noreferrer">pull request</a> on <a href="https://github.com/The-Noah/bzfs-plugins" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+      <p>Note that built-in/offical plugins are not (currently) covered.</p>
+    </div>
   </div>
   <footer>
     <div>
