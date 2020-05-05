@@ -10,13 +10,19 @@
   <style><%- css.style -%></style>
 </head>
 <body>
-  <div class="cover">
+  <header>
     <h1>BZFlag Server Plugins</h1>
-  </div>
+    <nav>
+      <% plugins.forEach(function(pluginCategory, i){ %>
+        <a href="#<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></a>
+        <%= i !== plugins.length - 1 ? "•" : "" %>
+      <% }); %>
+    </nav>
+  </header>
   <div class="container">
     <% plugins.forEach(function(pluginCategory){ %>
       <div>
-        <h2><%= pluginCategory.name %></h2>
+        <h2 id="<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></h2>
         <p><%= pluginCategory.description %>.</p>
         <div class="cards">
           <% pluginCategory.plugins.forEach(function(plugin){ %>
