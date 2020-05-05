@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/The-Noah/bzfs-plugins#readme",
   "dependencies": {
-    "@the-noah/static-site-generator": "^1.0.1"
+    "@the-noah/static-site-generator": "^1.0.2"
   }
 }
