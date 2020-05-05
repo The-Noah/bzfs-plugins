@@ -1,23 +1,5 @@
 [
   {
-    "name": "Recommended",
-    "description": "Highly recommended for all servers",
-    "plugins": [
-      {
-        "name": "VPN Blocker",
-        "description": "Query VPN detection services to auto-kick players on VPNs",
-        "author": "allejo",
-        "github": "VPNBlocker"
-      },
-      {
-        "name": "Score Restorer",
-        "description": "Restores a player's score whenever they rejoin within a set amount of time",
-        "author": "allejo",
-        "github": "ScoreRestorer"
-      }
-    ]
-  },
-  {
     "name": "Game Modes",
     "description": "Custom game modes",
     "plugins": [
@@ -32,6 +14,18 @@
         "description": "The All Hands On Deck game mode",
         "author": "allejo",
         "github": "AllHandsOnDeck"
+      },
+      {
+        "name": "Last Tank Standing",
+        "description": "Game mode where the last tank standing wins the match",
+        "author": "allejo",
+        "github": "lastTankStanding"
+      },
+      {
+        "name": "Capture the Base",
+        "description": "Prevents players from picking their own team flag up. Also it flag resets (unused) when a flag is captured",
+        "author": "flying_popcorn",
+        "forum": "13548"
       }
     ]
   },
@@ -48,8 +42,8 @@
     ]
   },
   {
-    "name": "Miscellaneous",
-    "description": "Plugins that don't really fit into another category",
+    "name": "Mechanics",
+    "description": "Changes how the game's mechanics work",
     "plugins": [
       {
         "name": "Mapped Death Zones",
@@ -58,22 +52,10 @@
         "github": "mappedDeathZones"
       },
       {
-        "name": "AOLer",
-        "description": "Translation plugin that will convert regular chat to AOL 1337 speak",
-        "author": "allejo",
-        "github": "AOLer"
-      },
-      {
         "name": "Auto Team Balance",
         "description": "Switches players to another team during gameplay without the need for a respawn or rejoin. Also allows for auto team balancing",
         "author": "allejo",
         "github": "autoTeamBalance"
-      },
-      {
-        "name": "Capture Bonus",
-        "description": "Awards a static bonus to players who capture the flag",
-        "author": "allejo",
-        "github": "CaptureBonus"
       },
       {
         "name": "CTF Overseer",
@@ -92,6 +74,132 @@
         "description": "Resets all the flags on the map when a flag is captured except for the team flags",
         "author": "allejo",
         "github": "flagResetOnCap"
+      },
+      {
+        "name": "Shot Limit Zone",
+        "description": "Allows you add shot limits to flags based on the location where they are picked up",
+        "author": "allejo",
+        "github": "shotLimitZone"
+      },
+      {
+        "name": "Spawn At Base",
+        "description": "Force players to spawn at a custom base object instead of their respective bases",
+        "author": "allejo",
+        "github": "spawnAtBase"
+      },
+      {
+        "name": "Useless Mine",
+        "description": "Allows players to place mines by grabbing the Useless flag",
+        "author": "allejo",
+        "github": "UselessMine"
+      },
+      {
+        "name": "Capture Bonus",
+        "description": "Awards a static bonus to players who capture the flag",
+        "author": "allejo",
+        "github": "CaptureBonus"
+      },
+      {
+        "name": "Checkpoint",
+        "description": "Save a player's spawn location when they reach checkpoints",
+        "author": "allejo",
+        "github": "Checkpoint"
+      },
+      {
+        "name": "Bounty Hunter",
+        "description": "Rewards those bounty hunters who are always going after the players on a rampage",
+        "author": "allejo",
+        "github": "bountyHunter"
+      },
+      {
+        "name": "Timed Flag On Spawn",
+        "description": "Gives player a flag on spawn, but takes it away shortly after",
+        "author": "allejo",
+        "github": "timedFlagOnSpawn"
+      }
+    ]
+  },
+  {
+    "name": "Administration",
+    "description": "Useful for server admins",
+    "plugins": [
+      {
+        "name": "VPN Blocker",
+        "description": "Query VPN detection services to auto-kick players on VPNs",
+        "author": "allejo",
+        "github": "VPNBlocker"
+      },
+      {
+        "name": "Persistent Mute",
+        "description": "Persists mutes after a player rejoins",
+        "author": "allejo",
+        "github": "persistentMute"
+      },
+      {
+        "name": "Player Join Handler",
+        "description": "Help avoid disruptions during matches",
+        "author": "allejo",
+        "github": "playerJoinHandler"
+      },
+      {
+        "name": "Var Protection",
+        "description": "Disallows anyone with the /set permission to change certain variables",
+        "author": "allejo",
+        "github": "varProtection"
+      },
+      {
+        "name": "Muted Chat Helper",
+        "description": "Allows muted players to send several pre-determined messages",
+        "author": "macsforme",
+        "github": "mutedChatHelper"
+      },
+      {
+        "name": "Admin Listener",
+        "description": "Forwards team chat and private messages between players to observer admins",
+        "author": "macsforme",
+        "forum": "11163"
+      },
+      {
+        "name": "Server Control",
+        "description": "Fork of the original serverControl BZFlag plug-in with capabilities to reload more than just ban files",
+        "author": "allejo",
+        "github": "serverControl"
+      },
+      {
+        "name": "Relative BZDB Values",
+        "description": "A BZFlag plugin to change BZDB settings based on the amount of non-observer players",
+        "author": "allejo",
+        "github": "relativeBZDBValues"
+      }
+    ]
+  },
+  {
+    "name": "Miscellaneous",
+    "description": "Plugins that don't really fit into another category",
+    "plugins": [
+      {
+        "name": "Score Restorer",
+        "description": "Restores a player's score whenever they rejoin within a set amount of time",
+        "author": "allejo",
+        "github": "ScoreRestorer"
+      },
+      {
+        "name": "AOLer",
+        "description": "Translation plugin that will convert regular chat to AOL 1337 speak",
+        "author": "allejo",
+        "github": "AOLer"
+      },
+      {
+        "name": "Staged Scene Generator",
+        "description": "Allows setting up staged scenes with fixed tanks and shots. Useful for generating screenshots",
+        "author": "blast",
+        "github": "stagedSceneGenerator"
+      },
+      {
+        "name": "Map Change",
+        "description": "Allows players to change the map",
+        "author": "allejo",
+        "github": "mapchange"
       }
     ]
   }
