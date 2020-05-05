@@ -99,6 +99,14 @@ header{
   align-items: center;
   position: relative;
 
+  @include mobile{
+    justify-content: flex-start;
+  }
+
+  & > *{
+    padding: .5rem;
+  }
+
   *{
     color: #FFF;
     text-shadow: 0 1px 8px #0007;
@@ -106,7 +114,7 @@ header{
 
   nav{
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
   }
 }
 
