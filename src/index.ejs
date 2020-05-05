@@ -27,18 +27,16 @@
         <div class="cards">
           <% pluginCategory.plugins.forEach(function(plugin){ %>
             <div>
-              <h3><%= plugin.name %></h3>
+              <h3><a href="https://github.com/<%= plugin.author %>/<%= plugin.github %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
               <p><%= plugin.description %>.</p>
-              <small>
-                By <a href="https://github.com/<%= plugin.author %>" target="_blank" rel="noopener noreferrer"><%= plugin.author %></a> •
-                <a href="https://github.com/<%= plugin.author %>/<%= plugin.github %>" target="_blank" rel="noopener noreferrer">GitHub</a></small>
+              <small>By <a href="https://github.com/<%= plugin.author %>" target="_blank" rel="noopener noreferrer"><%= plugin.author %></a></small>
             </div>
           <% }); %>
         </div>
       </div>
     <% }); %>
     <div id="submit">
-      <h2>Submit Plugin</h2>
+      <h2>Submit a Plugin</h2>
       <p>Want to submit a plugin to this list? Either create an <a href="https://github.com/The-Noah/bzfs-plugins/issues/new" target="_blank" rel="noopener noreferrer">issue</a> or <a href="https://github.com/The-Noah/bzfs-plugins/compare" target="_blank" rel="noopener noreferrer">pull request</a> on <a href="https://github.com/The-Noah/bzfs-plugins" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
       <p>Note that built-in/offical plugins are not (currently) covered.</p>
     </div>
