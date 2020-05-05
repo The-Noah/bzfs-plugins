@@ -17,17 +17,19 @@ $border-radius: .5rem;
 :root{
   font-size: 18px;
 
+  --color-bg: #FAFAFA;
   --color-bg-light: #FFF;
   --color-text: #333;
   --color-text-dark: #111;
   --color-text-light: #555;
-}
 
-:root[data-theme=dark]{
-  --color-bg: #000;
-  --color-text: #EEE;
-  --color-text-dark: #F5F5F5;
-  --color-text-light: #CCC;
+  @media (prefers-color-scheme: dark){
+    --color-bg: #0A0A0A;
+    --color-bg-light: #111;
+    --color-text: #E5E5E5;
+    --color-text-dark: #F0F0F0;
+    --color-text-light: #CCC;
+  }
 }
 
 html, body{
@@ -170,6 +172,7 @@ footer{
 
   & > div{
     padding: 1rem;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 1rem #0002;
