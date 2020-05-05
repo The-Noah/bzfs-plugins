@@ -27,7 +27,7 @@
         <div class="cards">
           <% pluginCategory.plugins.sort((a, b) => a.name > b.name).forEach((plugin) => { %>
             <div>
-              <h3><a href="<%= plugin.github ? `https://github.com/${plugin.author}/${plugin.github}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
+              <h3><a href="<%= plugin.github ? `https://github.com/${authors[plugin.author].github}/${plugin.github}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
               <p><%= plugin.description %>.</p>
               <small>
                 By <a href="https://forums.bzflag.org/memberlist.php?mode=viewprofile&u=<%= authors[plugin.author].bzid %>" target="_blank" rel="noopener noreferrer"><%= plugin.author %></a>
