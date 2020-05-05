@@ -26,6 +26,12 @@
         "description": "The \"Dodgeball\" game mode",
         "author": "allejo",
         "github": "dodgeball"
+      },
+      {
+        "name": "All Hands On Deck",
+        "description": "The All Hands On Deck game mode",
+        "author": "allejo",
+        "github": "AllHandsOnDeck"
       }
     ]
   },
@@ -50,6 +56,42 @@
         "description": "Introduces basic spawning logic based on where a player died",
         "author": "allejo",
         "github": "mappedDeathZones"
+      },
+      {
+        "name": "AOLer",
+        "description": "Translation plugin that will convert regular chat to AOL 1337 speak",
+        "author": "allejo",
+        "github": "AOLer"
+      },
+      {
+        "name": "Auto Team Balance",
+        "description": "Switches players to another team during gameplay without the need for a respawn or rejoin. Also allows for auto team balancing",
+        "author": "allejo",
+        "github": "autoTeamBalance"
+      },
+      {
+        "name": "Capture Bonus",
+        "description": "Awards a static bonus to players who capture the flag",
+        "author": "allejo",
+        "github": "CaptureBonus"
+      },
+      {
+        "name": "CTF Overseer",
+        "description": "Oversees the fairness and features of CTF",
+        "author": "allejo",
+        "github": "ctfOverseer"
+      },
+      {
+        "name": "Demilitarized Zones",
+        "description": "Adds zones to maps where shots are rendered harmless",
+        "author": "allejo",
+        "github": "DemilitarizedZones"
+      },
+      {
+        "name": "Flag Reset On Cap",
+        "description": "Resets all the flags on the map when a flag is captured except for the team flags",
+        "author": "allejo",
+        "github": "flagResetOnCap"
       }
     ]
   }
