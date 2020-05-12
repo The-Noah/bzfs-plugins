@@ -1,266 +1,275 @@
 [
   {
-    "name": "Game Modes",
-    "description": "Custom game modes",
-    "plugins": [
-      {
-        "name": "Dodgeball",
-        "description": "The \"Dodgeball\" game mode",
-        "author": "allejo",
-        "github": "dodgeball"
-      },
-      {
-        "name": "All Hands On Deck",
-        "description": "The All Hands On Deck game mode",
-        "author": "allejo",
-        "github": "AllHandsOnDeck"
-      },
-      {
-        "name": "Last Tank Standing",
-        "description": "Game mode where the last tank standing wins the match",
-        "author": "allejo",
-        "github": "lastTankStanding"
-      },
-      {
-        "name": "Capture the Base",
-        "description": "Prevents players from picking their own team flag up. Also it flag resets (unused) when a flag is captured",
-        "author": "flying_popcorn",
-        "forum": "13548"
-      }
-    ]
+    "name": "Dodgeball",
+    "description": "The \"Dodgeball\" game mode",
+    "category": "Game Modes",
+    "author": "allejo",
+    "github": "dodgeball"
   },
   {
-    "name": "Flags",
-    "description": "Custom flag or changes how a default flag works",
-    "plugins": [
-      {
-        "name": "Safe Genocide",
-        "description": "A Genocide-like flag without the mass killing",
-        "author": "allejo",
-        "github": "safeGenocide"
-      },
-      {
-        "name": "Extra Point Flags",
-        "description": "Kills made with these flags count towards extra points. Includes hundredPoint, triplePoint, and doublePoint",
-        "author": "I_Died_Once",
-        "forum": "18075"
-      },
-      {
-        "name": "Grenade",
-        "description": "Shooting with the Grenade flag generates a delayed detonation in front of you, where the detonation distance is controlled by your tank speed",
-        "author": "Pac-Man",
-        "forum": "18792"
-      },
-      {
-        "name": "Reverse Geno",
-        "description": "Allows a player to genocide the other team by being shot",
-        "author": "asinck",
-        "github": "ReverseGeno"
-      },
-      {
-        "name": "Useless Mine",
-        "description": "Allows players to place mines by grabbing the Useless flag",
-        "author": "allejo",
-        "github": "UselessMine"
-      },
-      {
-        "name": "Risky Geno",
-        "description": "A player who dies while holding Genocide will have his whole team obliterated",
-        "author": "L4m3r",
-        "forum": "12418"
-      },
-      {
-        "name": "Geno Once",
-        "description": "Causes a player to drop a Genocide flag when they make a kill with it",
-        "author": "L4m3r",
-        "forum": "12418"
-      },
-      {
-        "name": "Team Flag Geno",
-        "description": "Makes team flags behave like Genocide flags when held by a member of their respective teams",
-        "author": "L4m3r",
-        "forum": "12418"
-      }
-    ]
+    "name": "All Hands On Deck",
+    "description": "The All Hands On Deck game mode",
+    "category": "Game Modes",
+    "author": "allejo",
+    "github": "AllHandsOnDeck"
   },
   {
-    "name": "Mechanics",
-    "description": "Changes how the game's mechanics work",
-    "plugins": [
-      {
-        "name": "Mapped Death Zones",
-        "description": "Introduces basic spawning logic based on where a player died",
-        "author": "allejo",
-        "github": "mappedDeathZones"
-      },
-      {
-        "name": "Auto Team Balance",
-        "description": "Switches players to another team during gameplay without the need for a respawn or rejoin. Also allows for auto team balancing",
-        "author": "allejo",
-        "github": "autoTeamBalance"
-      },
-      {
-        "name": "CTF Overseer",
-        "description": "Oversees the fairness and features of CTF",
-        "author": "allejo",
-        "github": "ctfOverseer"
-      },
-      {
-        "name": "Demilitarized Zones",
-        "description": "Adds zones to maps where shots are rendered harmless",
-        "author": "allejo",
-        "github": "DemilitarizedZones"
-      },
-      {
-        "name": "Flag Reset On Cap",
-        "description": "Resets all the flags on the map when a flag is captured except for the team flags",
-        "author": "allejo",
-        "github": "flagResetOnCap"
-      },
-      {
-        "name": "Shot Limit Zone",
-        "description": "Allows you add shot limits to flags based on the location where they are picked up",
-        "author": "allejo",
-        "github": "shotLimitZone"
-      },
-      {
-        "name": "Spawn At Base",
-        "description": "Force players to spawn at a custom base object instead of their respective bases",
-        "author": "allejo",
-        "github": "spawnAtBase"
-      },
-      {
-        "name": "Capture Bonus",
-        "description": "Awards a static bonus to players who capture the flag",
-        "author": "allejo",
-        "github": "CaptureBonus"
-      },
-      {
-        "name": "Checkpoint",
-        "description": "Save a player's spawn location when they reach checkpoints",
-        "author": "allejo",
-        "github": "Checkpoint"
-      },
-      {
-        "name": "Bounty Hunter",
-        "description": "Rewards those bounty hunters who are always going after the players on a rampage",
-        "author": "allejo",
-        "github": "bountyHunter"
-      },
-      {
-        "name": "Timed Flag On Spawn",
-        "description": "Gives player a flag on spawn, but takes it away shortly after",
-        "author": "allejo",
-        "github": "timedFlagOnSpawn"
-      },
-      {
-        "name": "Useless Rampage",
-        "description": "Gives some use to the Useless flag where it will award as many points as your current killing spree",
-        "author": "allejo",
-        "github": "uselessRampage"
-      },
-      {
-        "name": "Spawn Facing the Center",
-        "description": "Modifies all spawns to face the dead center of the map (0, 0, z)",
-        "author": "L4m3r",
-        "forum": "17936"
-      }
-    ]
+    "name": "Last Tank Standing",
+    "description": "Game mode where the last tank standing wins the match",
+    "category": "Game Modes",
+    "author": "allejo",
+    "github": "lastTankStanding"
   },
   {
-    "name": "Administration",
-    "description": "Useful for server admins",
-    "plugins": [
-      {
-        "name": "VPN Blocker",
-        "description": "Query VPN detection services to auto-kick players on VPNs",
-        "author": "allejo",
-        "github": "VPNBlocker"
-      },
-      {
-        "name": "Persistent Mute",
-        "description": "Persists mutes after a player rejoins",
-        "author": "allejo",
-        "github": "persistentMute"
-      },
-      {
-        "name": "Player Join Handler",
-        "description": "Help avoid disruptions during matches",
-        "author": "allejo",
-        "github": "playerJoinHandler"
-      },
-      {
-        "name": "Var Protection",
-        "description": "Disallows anyone with the /set permission to change certain variables",
-        "author": "allejo",
-        "github": "varProtection"
-      },
-      {
-        "name": "Muted Chat Helper",
-        "description": "Allows muted players to send several pre-determined messages",
-        "author": "macsforme",
-        "github": "mutedChatHelper"
-      },
-      {
-        "name": "Admin Listener",
-        "description": "Forwards team chat and private messages between players to observer admins",
-        "author": "macsforme",
-        "forum": "11163"
-      },
-      {
-        "name": "Server Control",
-        "description": "Fork of the original serverControl BZFlag plug-in with capabilities to reload more than just ban files",
-        "author": "allejo",
-        "github": "serverControl"
-      },
-      {
-        "name": "Relative BZDB Values",
-        "description": "A BZFlag plugin to change BZDB settings based on the amount of non-observer players",
-        "author": "allejo",
-        "github": "relativeBZDBValues"
-      },
-      {
-        "name": "Player DB",
-        "description": "The playerdb plugin interfaces with a web API to store and query player join information",
-        "author": "blast",
-        "bitbucket": "bz_playerdb_plugin"
-      }
-    ]
+    "name": "Capture the Base",
+    "description": "Prevents players from picking their own team flag up. Also it flag resets (unused) when a flag is captured",
+    "category": "Game Modes",
+    "author": "flying_popcorn",
+    "forum": "13548"
   },
   {
-    "name": "Miscellaneous",
-    "description": "Plugins that don't really fit into another category",
-    "plugins": [
-      {
-        "name": "Score Restorer",
-        "description": "Restores a player's score whenever they rejoin within a set amount of time",
-        "author": "allejo",
-        "github": "ScoreRestorer"
-      },
-      {
-        "name": "AOLer",
-        "description": "Translation plugin that will convert regular chat to AOL 1337 speak",
-        "author": "allejo",
-        "github": "AOLer"
-      },
-      {
-        "name": "Staged Scene Generator",
-        "description": "Allows setting up staged scenes with fixed tanks and shots. Useful for generating screenshots",
-        "author": "blast",
-        "github": "stagedSceneGenerator"
-      },
-      {
-        "name": "Map Change",
-        "description": "Allows players to change the map",
-        "author": "allejo",
-        "github": "mapchange"
-      },
-      {
-        "name": "Geno Stats",
-        "description": "Adds a command to the game that allows players to check on some simple statistics for Genocide flag usage",
-        "author": "L4m3r",
-        "forum": "12418"
-      }
-    ]
+    "name": "Safe Genocide",
+    "description": "A Genocide-like flag without the mass killing",
+    "category": "Flags",
+    "author": "allejo",
+    "github": "safeGenocide"
+  },
+  {
+    "name": "Extra Point Flags",
+    "description": "Kills made with these flags count towards extra points. Includes hundredPoint, triplePoint, and doublePoint",
+    "category": "Flags",
+    "author": "I_Died_Once",
+    "forum": "18075"
+  },
+  {
+    "name": "Grenade",
+    "description": "Shooting with the Grenade flag generates a delayed detonation in front of you, where the detonation distance is controlled by your tank speed",
+    "category": "Flags",
+    "author": "Pac-Man",
+    "forum": "18792"
+  },
+  {
+    "name": "Reverse Geno",
+    "description": "Allows a player to genocide the other team by being shot",
+    "category": "Flags",
+    "author": "asinck",
+    "github": "ReverseGeno"
+  },
+  {
+    "name": "Useless Mine",
+    "description": "Allows players to place mines by grabbing the Useless flag",
+    "category": "Flags",
+    "author": "allejo",
+    "github": "UselessMine"
+  },
+  {
+    "name": "Risky Geno",
+    "description": "A player who dies while holding Genocide will have his whole team obliterated",
+    "category": "Flags",
+    "author": "L4m3r",
+    "forum": "12418"
+  },
+  {
+    "name": "Geno Once",
+    "description": "Causes a player to drop a Genocide flag when they make a kill with it",
+    "category": "Flags",
+    "author": "L4m3r",
+    "forum": "12418"
+  },
+  {
+    "name": "Team Flag Geno",
+    "description": "Makes team flags behave like Genocide flags when held by a member of their respective teams",
+    "category": "Flags",
+    "author": "L4m3r",
+    "forum": "12418"
+  },
+  {
+    "name": "Mapped Death Zones",
+    "description": "Introduces basic spawning logic based on where a player died",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "mappedDeathZones"
+  },
+  {
+    "name": "Auto Team Balance",
+    "description": "Switches players to another team during gameplay without the need for a respawn or rejoin. Also allows for auto team balancing",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "autoTeamBalance"
+  },
+  {
+    "name": "CTF Overseer",
+    "description": "Oversees the fairness and features of CTF",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "ctfOverseer"
+  },
+  {
+    "name": "Demilitarized Zones",
+    "description": "Adds zones to maps where shots are rendered harmless",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "DemilitarizedZones"
+  },
+  {
+    "name": "Flag Reset On Cap",
+    "description": "Resets all the flags on the map when a flag is captured except for the team flags",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "flagResetOnCap"
+  },
+  {
+    "name": "Shot Limit Zone",
+    "description": "Allows you add shot limits to flags based on the location where they are picked up",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "shotLimitZone"
+  },
+  {
+    "name": "Spawn At Base",
+    "description": "Force players to spawn at a custom base object instead of their respective bases",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "spawnAtBase"
+  },
+  {
+    "name": "Capture Bonus",
+    "description": "Awards a static bonus to players who capture the flag",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "CaptureBonus"
+  },
+  {
+    "name": "Checkpoint",
+    "description": "Save a player's spawn location when they reach checkpoints",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "Checkpoint"
+  },
+  {
+    "name": "Bounty Hunter",
+    "description": "Rewards those bounty hunters who are always going after the players on a rampage",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "bountyHunter"
+  },
+  {
+    "name": "Timed Flag On Spawn",
+    "description": "Gives player a flag on spawn, but takes it away shortly after",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "timedFlagOnSpawn"
+  },
+  {
+    "name": "Useless Rampage",
+    "description": "Gives some use to the Useless flag where it will award as many points as your current killing spree",
+    "category": "Mechanics",
+    "author": "allejo",
+    "github": "uselessRampage"
+  },
+  {
+    "name": "Spawn Facing the Center",
+    "description": "Modifies all spawns to face the dead center of the map (0, 0, z)",
+    "category": "Mechanics",
+    "author": "L4m3r",
+    "forum": "17936"
+  },
+  {
+    "name": "VPN Blocker",
+    "description": "Query VPN detection services to auto-kick players on VPNs",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "VPNBlocker"
+  },
+  {
+    "name": "Persistent Mute",
+    "description": "Persists mutes after a player rejoins",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "persistentMute"
+  },
+  {
+    "name": "Player Join Handler",
+    "description": "Help avoid disruptions during matches",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "playerJoinHandler"
+  },
+  {
+    "name": "Var Protection",
+    "description": "Disallows anyone with the /set permission to change certain variables",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "varProtection"
+  },
+  {
+    "name": "Muted Chat Helper",
+    "description": "Allows muted players to send several pre-determined messages",
+    "category": "Administration",
+    "author": "macsforme",
+    "github": "mutedChatHelper"
+  },
+  {
+    "name": "Admin Listener",
+    "description": "Forwards team chat and private messages between players to observer admins",
+    "category": "Administration",
+    "author": "macsforme",
+    "forum": "11163"
+  },
+  {
+    "name": "Server Control",
+    "description": "Fork of the original serverControl BZFlag plug-in with capabilities to reload more than just ban files",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "serverControl"
+  },
+  {
+    "name": "Relative BZDB Values",
+    "description": "A BZFlag plugin to change BZDB settings based on the amount of non-observer players",
+    "category": "Administration",
+    "author": "allejo",
+    "github": "relativeBZDBValues"
+  },
+  {
+    "name": "Player DB",
+    "description": "The playerdb plugin interfaces with a web API to store and query player join information",
+    "category": "Administration",
+    "author": "blast",
+    "bitbucket": "bz_playerdb_plugin"
+  },
+  {
+    "name": "Score Restorer",
+    "description": "Restores a player's score whenever they rejoin within a set amount of time",
+    "category": "Miscellaneous",
+    "author": "allejo",
+    "github": "ScoreRestorer"
+  },
+  {
+    "name": "AOLer",
+    "description": "Translation plugin that will convert regular chat to AOL 1337 speak",
+    "category": "Miscellaneous",
+    "author": "allejo",
+    "github": "AOLer"
+  },
+  {
+    "name": "Staged Scene Generator",
+    "description": "Allows setting up staged scenes with fixed tanks and shots. Useful for generating screenshots",
+    "category": "Miscellaneous",
+    "author": "blast",
+    "github": "stagedSceneGenerator"
+  },
+  {
+    "name": "Map Change",
+    "description": "Allows players to change the map",
+    "category": "Miscellaneous",
+    "author": "allejo",
+    "github": "mapchange"
+  },
+  {
+    "name": "Geno Stats",
+    "description": "Adds a command to the game that allows players to check on some simple statistics for Genocide flag usage",
+    "category": "Miscellaneous",
+    "author": "L4m3r",
+    "forum": "12418"
   }
 ]

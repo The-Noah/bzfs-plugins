@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Game Modes",
+    "description": "Custom game modes"
+  },
+  {
+    "name": "Flags",
+    "description": "Custom flag or changes how a default flag works"
+  },
+  {
+    "name": "Mechanics",
+    "description": "Changes how the game's mechanics work"
+  },
+  {
+    "name": "Administration",
+    "description": "Useful for server admins"
+  },
+  {
+    "name": "Miscellaneous",
+    "description": "Plugins that don't really fit into another category"
+  }
+]

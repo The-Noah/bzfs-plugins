@@ -13,19 +13,19 @@
   <header>
     <h1>BZFlag Server Plugins</h1>
     <nav>
-      <% plugins.forEach((pluginCategory, i) => { %>
-        <a href="#<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>"><%= pluginCategory.name %></a> •
+      <% categories.forEach((category) => { %>
+        <a href="#<%= category.name.toLowerCase().replace(" ", "-") %>"><%= category.name %></a> •
       <% }); %>
       <a href="#submit">Submit</a>
     </nav>
   </header>
   <div class="container">
-    <% plugins.forEach((pluginCategory) => { %>
-      <div id="<%= pluginCategory.name.toLowerCase().replace(" ", "-") %>">
-        <h2><%= pluginCategory.name %></h2>
-        <p><%= pluginCategory.description %>.</p>
+    <% categories.forEach((category) => { %>
+      <div id="<%= category.name.toLowerCase().replace(" ", "-") %>">
+        <h2><%= category.name %></h2>
+        <p><%= category.description %>.</p>
         <div class="cards">
-          <% pluginCategory.plugins.sort((a, b) => a.name > b.name).forEach((plugin) => { %>
+          <% plugins.filter((plugin) => plugin.category === category.name).sort((a, b) => a.name > b.name).forEach((plugin) => { %>
             <div>
               <h3><a href="<%= plugin.github ? `https://github.com/${authors[plugin.author].github}/${plugin.github}` : plugin.bitbucket ? `https://bitbucket.org/${authors[plugin.author].bitbucket}/${plugin.bitbucket}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
               <p><%= plugin.description %>.</p>
