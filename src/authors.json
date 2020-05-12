@@ -5,7 +5,8 @@
   },
   "blast": {
     "bzid": 180,
-    "github": "blast007"
+    "github": "blast007",
+    "bitbucket": "blast007"
   },
   "macsforme": {
     "bzid": 9972,
@@ -13,5 +14,18 @@
   },
   "flying_popcorn": {
     "bzid": 6614
+  },
+  "I_Died_Once": {
+    "bzid": 1032
+  },
+  "L4m3r": {
+    "bzid": 1664
+  },
+  "Pac-Man": {
+    "bzid": 32232
+  },
+  "asinck": {
+    "bzid": 0,
+    "github": "asinck"
   }
 }

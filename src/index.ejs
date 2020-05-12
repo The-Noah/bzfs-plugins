@@ -27,12 +27,15 @@
         <div class="cards">
           <% pluginCategory.plugins.sort((a, b) => a.name > b.name).forEach((plugin) => { %>
             <div>
-              <h3><a href="<%= plugin.github ? `https://github.com/${authors[plugin.author].github}/${plugin.github}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
+              <h3><a href="<%= plugin.github ? `https://github.com/${authors[plugin.author].github}/${plugin.github}` : plugin.bitbucket ? `https://bitbucket.org/${authors[plugin.author].bitbucket}/${plugin.bitbucket}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
               <p><%= plugin.description %>.</p>
               <small>
                 By <a href="https://forums.bzflag.org/memberlist.php?mode=viewprofile&u=<%= authors[plugin.author].bzid %>" target="_blank" rel="noopener noreferrer"><%= plugin.author %></a>
                 <% if(authors[plugin.author].github){ %>
                   • <a href="https://github.com/<%= authors[plugin.author].github %>" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <% } %>
+                <% if(authors[plugin.author].bitbucket){ %>
+                  • <a href="https://bitbucket.org/<%= authors[plugin.author].bitbucket %>" target="_blank" rel="noopener noreferrer">BitBucket</a>
                 <% } %>
               </small>
             </div>

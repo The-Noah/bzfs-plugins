@@ -38,6 +38,24 @@
         "description": "A Genocide-like flag without the mass killing",
         "author": "allejo",
         "github": "safeGenocide"
+      },
+      {
+        "name": "Extra Point Flags",
+        "description": "These flags fire normally, like any other normal shot. However, kills made with these flags count towards extra points",
+        "author": "I_Died_Once",
+        "forum": "18075"
+      },
+      {
+        "name": "Grenade",
+        "description": "Shooting with the Grenade flag generates a delayed detonation in front of you, where the detonation distance is controlled by your tank speed",
+        "author": "Pac-Man",
+        "forum": "18792"
+      },
+      {
+        "name": "Reverse Geno",
+        "description": "Allows a player to genocide the other team by being shot. This is the opposite of the Genocide flag, which allows a player to genocide the other team by shooting one of them",
+        "author": "asinck",
+        "github": "ReverseGeno"
       }
     ]
   },
@@ -116,6 +134,36 @@
         "description": "Gives player a flag on spawn, but takes it away shortly after",
         "author": "allejo",
         "github": "timedFlagOnSpawn"
+      },
+      {
+        "name": "Useless Rampage",
+        "description": "Gives some use to the Useless flag where it will award as many points as your current killing spree",
+        "author": "allejo",
+        "github": "uselessRampage"
+      },
+      {
+        "name": "Spawn Facing the Center",
+        "description": "Modifies all spawns to face the dead center of the map (0, 0, z)",
+        "author": "L4m3r",
+        "forum": "17936"
+      },
+      {
+        "name": "Risky Geno",
+        "description": "A player who dies while holding Genocide will have his whole team obliterated",
+        "author": "L4m3r",
+        "forum": "12418"
+      },
+      {
+        "name": "Geno Once",
+        "description": "Causes a player to drop a Genocide flag when they make a kill with it",
+        "author": "L4m3r",
+        "forum": "12418"
+      },
+      {
+        "name": "Team Flag Geno",
+        "description": "Makes team flags behave like Genocide flags when held by a member of their respective teams",
+        "author": "L4m3r",
+        "forum": "12418"
       }
     ]
   },
@@ -170,6 +218,12 @@
         "description": "A BZFlag plugin to change BZDB settings based on the amount of non-observer players",
         "author": "allejo",
         "github": "relativeBZDBValues"
+      },
+      {
+        "name": "Player DB",
+        "description": "The playerdb plugin interfaces with a web API to store and query player join information",
+        "author": "blast",
+        "bitbucket": "bz_playerdb_plugin"
       }
     ]
   },
@@ -200,6 +254,12 @@
         "description": "Allows players to change the map",
         "author": "allejo",
         "github": "mapchange"
+      },
+      {
+        "name": "Geno Stats",
+        "description": "Adds a command to the game that allows players to check on some simple statistics for Genocide flag usage",
+        "author": "L4m3r",
+        "forum": "12418"
       }
     ]
   }
