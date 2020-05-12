@@ -25,7 +25,7 @@
         <h2><%= category.name %></h2>
         <p><%= category.description %>.</p>
         <div class="cards">
-          <% plugins.filter((plugin) => plugin.category === category.name).sort((a, b) => a.name > b.name).forEach((plugin) => { %>
+          <% plugins.filter((plugin) => plugin.category === category.name).sort((a, b) => a.name > b.name ? 1 : -1).forEach((plugin) => { %>
             <div>
               <h3><a href="<%= plugin.github ? `https://github.com/${authors[plugin.author].github}/${plugin.github}` : plugin.bitbucket ? `https://bitbucket.org/${authors[plugin.author].bitbucket}/${plugin.bitbucket}` : `https://forums.bzflag.org/viewtopic.php?t=${plugin.forum}` %>" target="_blank" rel="noopener noreferrer"><%= plugin.name %></a></h3>
               <p><%= plugin.description %>.</p>
