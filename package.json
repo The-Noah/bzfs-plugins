@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "static-site-generator dev",
     "build": "static-site-generator",
     "watch": "static-site-generator watch",
     "test": "echo \"Error: no test specified\""
@@ -19,6 +20,6 @@
   },
   "homepage": "https://github.com/The-Noah/bzfs-plugins#readme",
   "dependencies": {
-    "@the-noah/static-site-generator": "^1.0.2"
+    "@the-noah/static-site-generator": "^1.3.3"
   }
 }
