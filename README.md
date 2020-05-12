@@ -5,7 +5,6 @@
 # BZFlag Server Plugins
 
 [![GitHub license](https://img.shields.io/github/license/The-Noah/bzfs-plugins.svg)](https://github.com/The-Noah/bzfs-plugins/blob/master/LICENSE)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/The-Noah/bzfs-plugins)
 
 List of BZFlag server plugins.
 
