@@ -31,7 +31,7 @@
   },
   {
     "name": "Flags",
-    "description": "More flags",
+    "description": "Custom flag or changes how a default flag works",
     "plugins": [
       {
         "name": "Safe Genocide",
@@ -41,7 +41,7 @@
       },
       {
         "name": "Extra Point Flags",
-        "description": "These flags fire normally, like any other normal shot. However, kills made with these flags count towards extra points",
+        "description": "Kills made with these flags count towards extra points. Includes hundredPoint, triplePoint, and doublePoint",
         "author": "I_Died_Once",
         "forum": "18075"
       },
@@ -53,9 +53,33 @@
       },
       {
         "name": "Reverse Geno",
-        "description": "Allows a player to genocide the other team by being shot. This is the opposite of the Genocide flag, which allows a player to genocide the other team by shooting one of them",
+        "description": "Allows a player to genocide the other team by being shot",
         "author": "asinck",
         "github": "ReverseGeno"
+      },
+      {
+        "name": "Useless Mine",
+        "description": "Allows players to place mines by grabbing the Useless flag",
+        "author": "allejo",
+        "github": "UselessMine"
+      },
+      {
+        "name": "Risky Geno",
+        "description": "A player who dies while holding Genocide will have his whole team obliterated",
+        "author": "L4m3r",
+        "forum": "12418"
+      },
+      {
+        "name": "Geno Once",
+        "description": "Causes a player to drop a Genocide flag when they make a kill with it",
+        "author": "L4m3r",
+        "forum": "12418"
+      },
+      {
+        "name": "Team Flag Geno",
+        "description": "Makes team flags behave like Genocide flags when held by a member of their respective teams",
+        "author": "L4m3r",
+        "forum": "12418"
       }
     ]
   },
@@ -106,12 +130,6 @@
         "github": "spawnAtBase"
       },
       {
-        "name": "Useless Mine",
-        "description": "Allows players to place mines by grabbing the Useless flag",
-        "author": "allejo",
-        "github": "UselessMine"
-      },
-      {
         "name": "Capture Bonus",
         "description": "Awards a static bonus to players who capture the flag",
         "author": "allejo",
@@ -146,24 +164,6 @@
         "description": "Modifies all spawns to face the dead center of the map (0, 0, z)",
         "author": "L4m3r",
         "forum": "17936"
-      },
-      {
-        "name": "Risky Geno",
-        "description": "A player who dies while holding Genocide will have his whole team obliterated",
-        "author": "L4m3r",
-        "forum": "12418"
-      },
-      {
-        "name": "Geno Once",
-        "description": "Causes a player to drop a Genocide flag when they make a kill with it",
-        "author": "L4m3r",
-        "forum": "12418"
-      },
-      {
-        "name": "Team Flag Geno",
-        "description": "Makes team flags behave like Genocide flags when held by a member of their respective teams",
-        "author": "L4m3r",
-        "forum": "12418"
       }
     ]
   },
