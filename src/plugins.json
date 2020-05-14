@@ -271,5 +271,33 @@
     "category": "Miscellaneous",
     "author": "L4m3r",
     "forum": "12418"
+  },
+  {
+    "name": "Flag Thief",
+    "description": "Takes the flag from the killer whenever they make a kill and have a score of 4 or above",
+    "category": "Mechanics",
+    "author": "Zehra",
+    "github": "flagThief"
+  },
+  {
+    "name": "Useless Geno",
+    "description": "Causes the Useless flag to act like Genocide",
+    "category": "Flags",
+    "author": "Zehra",
+    "forum": "20157"
+  },
+  {
+    "name": "No Loss On SW",
+    "description": "Players do not lose points on deaths from 'ShockWave' shot type",
+    "category": "Flags",
+    "author": "Zehra",
+    "forum": "20145"
+  },
+  {
+    "name": "Spawnkill Revenge",
+    "description": "Discourages them by auto-killing the perpetrators of spawnkills",
+    "category": "Mechanics",
+    "author": "Agatha",
+    "github": "SpawnkillRevenge"
   }
 ]
