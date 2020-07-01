@@ -13,10 +13,10 @@
   <header>
     <h1>BZFlag Server Plugins</h1>
     <nav>
-      <% categories.forEach((category) => { %>
-        <a href="#<%= category.name.toLowerCase().replace(" ", "-") %>"><%= category.name %></a> •
+      <% categories.forEach((category, i) => { %>
+        <a href="#<%= category.name.toLowerCase().replace(" ", "-") %>"><%= category.name %></a>
+        <% if(i < categories.length - 1){ %> • <% } %>
       <% }); %>
-      <a href="#submit">Submit</a>
     </nav>
   </header>
   <div class="container">
