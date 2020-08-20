@@ -299,5 +299,12 @@
     "category": "Mechanics",
     "author": "Agatha",
     "github": "SpawnkillRevenge"
+  },
+  {
+    "name": "Swear Suppressor",
+    "description": "Block offending messages entirely when the language filter is triggered and notify the player",
+    "category": "Administration",
+    "author": "L4m3r",
+    "forum": "17901"
   }
 ]
