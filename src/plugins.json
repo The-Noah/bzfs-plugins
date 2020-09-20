@@ -196,11 +196,11 @@
     "github": "playerJoinHandler"
   },
   {
-    "name": "Var Protection",
+    "name": "BZDB Lock",
     "description": "Disallows anyone with the /set permission to change certain variables",
     "category": "Administration",
     "author": "allejo",
-    "github": "varProtection"
+    "github": "bzdbLock"
   },
   {
     "name": "Muted Chat Helper",
