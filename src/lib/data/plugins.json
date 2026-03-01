@@ -306,5 +306,13 @@
     "category": "Administration",
     "author": "L4m3r",
     "forum": "17901"
+  },
+  {
+    "name": "Super Laser Flag",
+    "description": "Adds the Super Laser, a flag that in addition to firing your normal shot fires a stream of shockwaves ahead of you",
+    "category": "Flags",
+    "author": "red rider",
+    "github": "SuperLaserFlag",
+    "forum": "180983"
   }
 ]

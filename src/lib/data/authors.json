@@ -35,5 +35,9 @@
   "Agatha": {
     "bzid": 58731,
     "github": "agatha2"
+  },
+  "red rider": {
+    "bzid": "60550",
+    "github": "TheSilverStone"
   }
 }
