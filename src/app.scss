@@ -6,14 +6,32 @@ $border-radius: 0.5rem;
   }
 }
 
-* {
-  color: var(--color-text);
+/* Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  margin: 0;
+}
+
+/* Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
 }
 
 :root {
-  font-size: 18px;
+  min-height: 100%;
+  color-scheme: dark light;
 
   --color-bg: #fafafa;
   --color-bg-light: #fff;
@@ -43,8 +61,11 @@ body {
 }
 
 body {
-  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
   background-color: var(--color-bg);
+  color: var(--color-fg);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -55,10 +76,57 @@ body {
   align-items: center;
 }
 
+/* Improve media defaults */
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 h1,
 h2,
-h3 {
-  margin: 0;
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
 }
 
 h1 {
