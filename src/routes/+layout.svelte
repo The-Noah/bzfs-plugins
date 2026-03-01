@@ -41,7 +41,7 @@
     padding: 2rem 1rem;
     background:
       linear-gradient(#000a, #000e),
-      url("cover.jpg") no-repeat center fixed;
+      url("./cover.jpg") no-repeat center fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
