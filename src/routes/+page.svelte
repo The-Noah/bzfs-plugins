@@ -68,3 +68,48 @@
     <p>Note that built-in/offical plugins are not (currently) covered.</p>
   </div>
 </div>
+
+<style lang="scss">
+  .container {
+    width: 80%;
+    flex: 1;
+
+    @include mobile {
+      width: 90%;
+    }
+
+    & > div {
+      margin: 4rem 0;
+
+      @include mobile {
+        margin: 2rem 0;
+      }
+    }
+  }
+
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 2rem;
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+
+    & > div {
+      padding: 1rem;
+      background-color: var(--color-bg-light);
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 1rem #0002;
+      border-radius: $border-radius;
+
+      p {
+        margin: 1rem 0;
+        flex: 1;
+      }
+    }
+  }
+</style>
