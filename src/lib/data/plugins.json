@@ -308,11 +308,18 @@
     "forum": "17901"
   },
   {
-    "name": "Super Laser Flag",
+    "name": "Super Laser",
     "description": "Adds the Super Laser, a flag that in addition to firing your normal shot fires a stream of shockwaves ahead of you",
     "category": "Flags",
     "author": "red rider",
     "github": "SuperLaserFlag",
     "forum": "180983"
+  },
+  {
+    "name": "Remote Detonation",
+    "description": "Fire a normal shot and a shockwave 450 world units ahead of you",
+    "category": "Flags",
+    "author": "Loymdayddaud",
+    "forum": "180903"
   }
 ]
