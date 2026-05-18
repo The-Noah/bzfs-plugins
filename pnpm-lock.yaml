@@ -12,52 +12,52 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(eslint@9.39.3)
       '@eslint/js':
-        specifier: ^9.39.2
+        specifier: ^9.39.3
         version: 9.39.3
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
         version: 3.0.10(@sveltejs/kit@2.53.4(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.53.6)(vite@7.3.1(@types/node@22.19.13)(sass-embedded@1.97.3)(sass@1.97.3)))(svelte@5.53.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.13)(sass-embedded@1.97.3)(sass@1.97.3)))
       '@sveltejs/kit':
-        specifier: ^2.50.2
+        specifier: ^2.53.4
         version: 2.53.4(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.53.6)(vite@7.3.1(@types/node@22.19.13)(sass-embedded@1.97.3)(sass@1.97.3)))(svelte@5.53.6)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.13)(sass-embedded@1.97.3)(sass@1.97.3))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.4
         version: 6.2.4(svelte@5.53.6)(vite@7.3.1(@types/node@22.19.13)(sass-embedded@1.97.3)(sass@1.97.3))
       '@types/node':
-        specifier: ^22
+        specifier: ^22.19.13
         version: 22.19.13
       eslint:
-        specifier: ^9.39.2
+        specifier: ^9.39.3
         version: 9.39.3
       eslint-config-prettier:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.39.3)
       eslint-plugin-svelte:
-        specifier: ^3.14.0
+        specifier: ^3.15.0
         version: 3.15.0(eslint@9.39.3)(svelte@5.53.6)
       globals:
-        specifier: ^17.3.0
+        specifier: ^17.4.0
         version: 17.4.0
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
       prettier-plugin-svelte:
-        specifier: ^3.4.1
+        specifier: ^3.5.0
         version: 3.5.0(prettier@3.8.1)(svelte@5.53.6)
       sass-embedded:
         specifier: ^1.97.3
         version: 1.97.3
       svelte:
-        specifier: ^5.51.0
+        specifier: ^5.53.6
         version: 5.53.6
       svelte-check:
-        specifier: ^4.4.2
+        specifier: ^4.4.4
         version: 4.4.4(picomatch@4.0.3)(svelte@5.53.6)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       typescript-eslint:
-        specifier: ^8.54.0
+        specifier: ^8.56.1
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
       vite:
         specifier: ^7.3.1
@@ -670,11 +670,11 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  brace-expansion@1.1.12:
-    resolution: {integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==}
+  brace-expansion@1.1.14:
+    resolution: {integrity: sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==}
 
-  brace-expansion@5.0.4:
-    resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
+  brace-expansion@5.0.6:
+    resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
     engines: {node: 18 || 20 || >=22}
 
   callsites@3.1.0:
@@ -704,7 +704,7 @@ packages:
     resolution: {integrity: sha512-twmVoizEW7ylZSN32OgKdXRmo1qg+wT5/6C3xu5b9QsWzSFAhHLn2xd8ro0diCsKfCj1RdaTP/nrcW+vAoQPIw==}
 
   concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   cookie@0.6.0:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
@@ -1863,12 +1863,12 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  brace-expansion@1.1.12:
+  brace-expansion@1.1.14:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@5.0.4:
+  brace-expansion@5.0.6:
     dependencies:
       balanced-match: 4.0.4
 
@@ -2150,11 +2150,11 @@ snapshots:
 
   minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.4
+      brace-expansion: 5.0.6
 
   minimatch@3.1.5:
     dependencies:
-      brace-expansion: 1.1.12
+      brace-expansion: 1.1.14
 
   mri@1.2.0: {}
 
